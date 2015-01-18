@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DAE3FC5D1A6C295100F7E904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */; };
-		DAE3FC5F1A6C295100F7E904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC5E1A6C295100F7E904 /* ViewController.swift */; };
 		DAE3FC621A6C295100F7E904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC601A6C295100F7E904 /* Main.storyboard */; };
 		DAE3FC641A6C295100F7E904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC631A6C295100F7E904 /* Images.xcassets */; };
 		DAE3FC671A6C295100F7E904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC651A6C295100F7E904 /* LaunchScreen.xib */; };
 		DAE3FC731A6C295100F7E904 /* Top_SitcomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC721A6C295100F7E904 /* Top_SitcomsTests.swift */; };
+		DAE3FC811A6C2BE700F7E904 /* TopSitcomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC801A6C2BE700F7E904 /* TopSitcomsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		DAE3FC571A6C295100F7E904 /* Top Sitcoms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Sitcoms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3FC5B1A6C295100F7E904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAE3FC5E1A6C295100F7E904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAE3FC611A6C295100F7E904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE3FC631A6C295100F7E904 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DAE3FC661A6C295100F7E904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DAE3FC6C1A6C295100F7E904 /* Top SitcomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top SitcomsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3FC711A6C295100F7E904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE3FC721A6C295100F7E904 /* Top_SitcomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_SitcomsTests.swift; sourceTree = "<group>"; };
+		DAE3FC801A6C2BE700F7E904 /* TopSitcomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSitcomsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,10 @@
 		DAE3FC591A6C295100F7E904 /* Top Sitcoms */ = {
 			isa = PBXGroup;
 			children = (
+				DAE3FC7C1A6C2BCE00F7E904 /* Controllers */,
+				DAE3FC7E1A6C2BCE00F7E904 /* Model */,
+				DAE3FC7F1A6C2BCE00F7E904 /* View */,
 				DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */,
-				DAE3FC5E1A6C295100F7E904 /* ViewController.swift */,
 				DAE3FC601A6C295100F7E904 /* Main.storyboard */,
 				DAE3FC631A6C295100F7E904 /* Images.xcassets */,
 				DAE3FC651A6C295100F7E904 /* LaunchScreen.xib */,
@@ -110,6 +112,36 @@
 				DAE3FC711A6C295100F7E904 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAE3FC7C1A6C2BCE00F7E904 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAE3FC7D1A6C2BCE00F7E904 /* TopSitcomsViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DAE3FC7D1A6C2BCE00F7E904 /* TopSitcomsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAE3FC801A6C2BE700F7E904 /* TopSitcomsViewController.swift */,
+			);
+			path = TopSitcomsViewController;
+			sourceTree = "<group>";
+		};
+		DAE3FC7E1A6C2BCE00F7E904 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAE3FC7F1A6C2BCE00F7E904 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE3FC5F1A6C295100F7E904 /* ViewController.swift in Sources */,
 				DAE3FC5D1A6C295100F7E904 /* AppDelegate.swift in Sources */,
+				DAE3FC811A6C2BE700F7E904 /* TopSitcomsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
