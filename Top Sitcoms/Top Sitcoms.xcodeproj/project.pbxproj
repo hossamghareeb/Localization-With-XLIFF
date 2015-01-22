@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAD1DD2F1A6EE7AD0096EC5E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD1DD2E1A6EE7AD0096EC5E /* bg.png */; };
+		DAD1DD311A6EE9860096EC5E /* sitcomsInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAD1DD301A6EE9860096EC5E /* sitcomsInfo.plist */; };
+		DAD1DD341A6EEC140096EC5E /* SitcomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1DD331A6EEC140096EC5E /* SitcomManager.swift */; };
 		DAE3FC5D1A6C295100F7E904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */; };
 		DAE3FC621A6C295100F7E904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC601A6C295100F7E904 /* Main.storyboard */; };
 		DAE3FC641A6C295100F7E904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC631A6C295100F7E904 /* Images.xcassets */; };
 		DAE3FC671A6C295100F7E904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC651A6C295100F7E904 /* LaunchScreen.xib */; };
 		DAE3FC731A6C295100F7E904 /* Top_SitcomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC721A6C295100F7E904 /* Top_SitcomsTests.swift */; };
 		DAE3FC811A6C2BE700F7E904 /* TopSitcomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC801A6C2BE700F7E904 /* TopSitcomsViewController.swift */; };
+		DAE3FC8F1A6C344600F7E904 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC911A6C344600F7E904 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAD1DD2E1A6EE7AD0096EC5E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		DAD1DD301A6EE9860096EC5E /* sitcomsInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sitcomsInfo.plist; sourceTree = "<group>"; };
+		DAD1DD331A6EEC140096EC5E /* SitcomManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitcomManager.swift; sourceTree = "<group>"; };
 		DAE3FC571A6C295100F7E904 /* Top Sitcoms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Sitcoms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3FC5B1A6C295100F7E904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		DAE3FC711A6C295100F7E904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE3FC721A6C295100F7E904 /* Top_SitcomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_SitcomsTests.swift; sourceTree = "<group>"; };
 		DAE3FC801A6C2BE700F7E904 /* TopSitcomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSitcomsViewController.swift; sourceTree = "<group>"; };
+		DAE3FC921A6C344900F7E904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAD1DD2D1A6EE7990096EC5E /* GFX */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1DD2E1A6EE7AD0096EC5E /* bg.png */,
+			);
+			path = GFX;
+			sourceTree = "<group>";
+		};
+		DAD1DD321A6EEBEC0096EC5E /* SitcomManager */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1DD331A6EEC140096EC5E /* SitcomManager.swift */,
+			);
+			path = SitcomManager;
+			sourceTree = "<group>";
+		};
 		DAE3FC4E1A6C295100F7E904 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +101,7 @@
 		DAE3FC591A6C295100F7E904 /* Top Sitcoms */ = {
 			isa = PBXGroup;
 			children = (
+				DAD1DD2D1A6EE7990096EC5E /* GFX */,
 				DAE3FC7C1A6C2BCE00F7E904 /* Controllers */,
 				DAE3FC7E1A6C2BCE00F7E904 /* Model */,
 				DAE3FC7F1A6C2BCE00F7E904 /* View */,
@@ -85,6 +110,7 @@
 				DAE3FC631A6C295100F7E904 /* Images.xcassets */,
 				DAE3FC651A6C295100F7E904 /* LaunchScreen.xib */,
 				DAE3FC5A1A6C295100F7E904 /* Supporting Files */,
+				DAD1DD301A6EE9860096EC5E /* sitcomsInfo.plist */,
 			);
 			path = "Top Sitcoms";
 			sourceTree = "<group>";
@@ -93,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				DAE3FC5B1A6C295100F7E904 /* Info.plist */,
+				DAE3FC911A6C344600F7E904 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -133,6 +160,7 @@
 		DAE3FC7E1A6C2BCE00F7E904 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DAD1DD321A6EEBEC0096EC5E /* SitcomManager */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -225,7 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE3FC621A6C295100F7E904 /* Main.storyboard in Resources */,
+				DAD1DD311A6EE9860096EC5E /* sitcomsInfo.plist in Resources */,
+				DAE3FC8F1A6C344600F7E904 /* Localizable.strings in Resources */,
 				DAE3FC671A6C295100F7E904 /* LaunchScreen.xib in Resources */,
+				DAD1DD2F1A6EE7AD0096EC5E /* bg.png in Resources */,
 				DAE3FC641A6C295100F7E904 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE3FC5D1A6C295100F7E904 /* AppDelegate.swift in Sources */,
+				DAD1DD341A6EEC140096EC5E /* SitcomManager.swift in Sources */,
 				DAE3FC811A6C2BE700F7E904 /* TopSitcomsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +314,14 @@
 				DAE3FC661A6C295100F7E904 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DAE3FC911A6C344600F7E904 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE3FC921A6C344900F7E904 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -437,6 +477,7 @@
 				DAE3FC781A6C295100F7E904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAE3FC791A6C295100F7E904 /* Build configuration list for PBXNativeTarget "Top SitcomsTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +486,7 @@
 				DAE3FC7B1A6C295100F7E904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

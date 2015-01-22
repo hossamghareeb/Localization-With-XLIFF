@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sitcoms</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Friends</string>
+			<key>year</key>
+			<integer>1994</integer>
+			<key>rank</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>The Bing Bang Theory</string>
+			<key>year</key>
+			<integer>2007</integer>
+			<key>rank</key>
+			<real>8.6</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Modern Family</string>
+			<key>year</key>
+			<integer>2009</integer>
+			<key>rank</key>
+			<real>8.77</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parks and Recreation</string>
+			<key>year</key>
+			<integer>2009</integer>
+			<key>rank</key>
+			<real>8.6</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Two and a Half Men</string>
+			<key>year</key>
+			<integer>2003</integer>
+			<key>rank</key>
+			<real>7.2</real>
+		</dict>
+	</array>
+</dict>
+</plist>

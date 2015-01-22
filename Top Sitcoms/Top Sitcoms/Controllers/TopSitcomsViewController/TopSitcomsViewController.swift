@@ -8,16 +8,46 @@
 
 import UIKit
 
-class TopSitcomsViewController: UIViewController {
+class TopSitcomsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
 
+    var sitcoms = [Sitcom]()
+    
+    @IBOutlet weak var sitcomsTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        println(NSLocalizedString("hello",comment: "Hello"))
+        
+        ;
+        
+        let manager = SitcomManager()
+        self.sitcoms = manager.getTop5Sitcoms()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    //MARK: - UITableViewDatasource -
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return self.sitcoms.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell
+        
+        let sitcom = self.sitcoms[indexPath.row]
+        
+        cell.textLabel.text = sitcom.name
+        cell.detailTextLabel?.text = "\(sitcom.year) - \(sitcom.rank) / 10"
+        
+        return cell
     }
 
 
