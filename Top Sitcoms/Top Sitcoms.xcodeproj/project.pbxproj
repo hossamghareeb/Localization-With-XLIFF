@@ -80,6 +80,21 @@
 			path = SitcomManager;
 			sourceTree = "<group>";
 		};
+		DADB211D1A7671050051A48E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DADB211E1A7671120051A48E /* XLIFF files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DADB211E1A7671120051A48E /* XLIFF files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "XLIFF files";
+			sourceTree = "<group>";
+		};
 		DAE3FC4E1A6C295100F7E904 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +116,7 @@
 		DAE3FC591A6C295100F7E904 /* Top Sitcoms */ = {
 			isa = PBXGroup;
 			children = (
+				DADB211D1A7671050051A48E /* Resources */,
 				DAD1DD2D1A6EE7990096EC5E /* GFX */,
 				DAE3FC7C1A6C2BCE00F7E904 /* Controllers */,
 				DAE3FC7E1A6C2BCE00F7E904 /* Model */,
