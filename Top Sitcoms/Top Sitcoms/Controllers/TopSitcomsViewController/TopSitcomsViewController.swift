@@ -18,9 +18,8 @@ class TopSitcomsViewController: UIViewController, UITableViewDataSource, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        println(NSLocalizedString("hello",comment: "Hello"))
+        self.title = NSLocalizedString("homeTitle",comment: "Most Popular Sitcom")
         
-        ;
         
         let manager = SitcomManager()
         self.sitcoms = manager.getTop5Sitcoms()

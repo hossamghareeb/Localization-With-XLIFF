@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Most popular Sitcom TV Series-->
+        <!--Top Sitcoms View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="TopSitcomsViewController" customModule="Top_Sitcoms" customModuleProvider="target" sceneMemberID="viewController">
@@ -57,7 +57,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="Most popular Sitcom TV Series" id="bhS-mG-iB5"/>
+                    <navigationItem key="navigationItem" id="bhS-mG-iB5"/>
                     <connections>
                         <outlet property="sitcomsTableView" destination="8NI-nm-hB0" id="zDs-1Q-K3j"/>
                     </connections>
