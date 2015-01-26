@@ -45,11 +45,11 @@ class TopSitcomsViewController: UIViewController, UITableViewDataSource, UITable
         let sitcom = self.sitcoms[indexPath.row]
         
         cell.textLabel.text = sitcom.name
-        cell.detailTextLabel?.text = "\(sitcom.year) - \(sitcom.rank) / 10"
+        cell.detailTextLabel?.text = "\(sitcom.getFormattedYear()) - \(sitcom.getFormattedRankDesc())"
         
         return cell
     }
 
-
+    
 }
 

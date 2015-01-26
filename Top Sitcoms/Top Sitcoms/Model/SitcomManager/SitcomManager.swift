@@ -20,6 +20,20 @@ class Sitcom
         self.year = year
         self.rank = rank
     }
+    
+    func getFormattedRankDesc() -> String
+    {
+        let formatter = NSNumberFormatter();
+        formatter.numberStyle = NSNumberFormatterStyle.DecimalStyle;
+        return "\(formatter.stringFromNumber(rank)!) / \(formatter.stringFromNumber(10)!)"
+    }
+    
+    func getFormattedYear() -> String
+    {
+        let formatter = NSNumberFormatter();
+        formatter.numberStyle = NSNumberFormatterStyle.NoStyle;
+        return formatter.stringFromNumber(year)!;
+    }
 }
 
 class SitcomManager {
