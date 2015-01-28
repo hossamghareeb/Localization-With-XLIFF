@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DAD1DD2F1A6EE7AD0096EC5E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD1DD2E1A6EE7AD0096EC5E /* bg.png */; };
 		DAD1DD311A6EE9860096EC5E /* sitcomsInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAD1DD301A6EE9860096EC5E /* sitcomsInfo.plist */; };
 		DAD1DD341A6EEC140096EC5E /* SitcomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1DD331A6EEC140096EC5E /* SitcomManager.swift */; };
+		DADB21231A7676D10051A48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DADB21251A7676D10051A48E /* InfoPlist.strings */; };
+		DADB212F1A7677070051A48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DADB21311A7677070051A48E /* InfoPlist.strings */; };
+		DADB21331A7677700051A48E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB21351A7677700051A48E /* bg.png */; };
 		DAE3FC5D1A6C295100F7E904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */; };
 		DAE3FC621A6C295100F7E904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC601A6C295100F7E904 /* Main.storyboard */; };
 		DAE3FC641A6C295100F7E904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC631A6C295100F7E904 /* Images.xcassets */; };
@@ -30,9 +32,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DAD1DD2E1A6EE7AD0096EC5E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		DAD1DD301A6EE9860096EC5E /* sitcomsInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sitcomsInfo.plist; sourceTree = "<group>"; };
 		DAD1DD331A6EEC140096EC5E /* SitcomManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitcomManager.swift; sourceTree = "<group>"; };
+		DADB211F1A7676D00051A48E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		DADB21201A7676D00051A48E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DADB21241A7676D10051A48E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADB21291A7677060051A48E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		DADB212A1A7677060051A48E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DADB212B1A7677060051A48E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADB21301A7677070051A48E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADB21321A76774E0051A48E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADB21361A7677770051A48E /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/bg.png; sourceTree = "<group>"; };
+		DADB21371A76777A0051A48E /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/bg.png; sourceTree = "<group>"; };
+		DADB21381A767DF40051A48E /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/bg.png; sourceTree = "<group>"; };
+		DADB21391A7682B30051A48E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DADB213A1A7682DC0051A48E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DAE3FC571A6C295100F7E904 /* Top Sitcoms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Sitcoms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3FC5B1A6C295100F7E904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +81,7 @@
 		DAD1DD2D1A6EE7990096EC5E /* GFX */ = {
 			isa = PBXGroup;
 			children = (
-				DAD1DD2E1A6EE7AD0096EC5E /* bg.png */,
+				DADB21351A7677700051A48E /* bg.png */,
 			);
 			path = GFX;
 			sourceTree = "<group>";
@@ -134,6 +148,7 @@
 		DAE3FC5A1A6C295100F7E904 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DADB21251A7676D10051A48E /* InfoPlist.strings */,
 				DAE3FC5B1A6C295100F7E904 /* Info.plist */,
 				DAE3FC911A6C344600F7E904 /* Localizable.strings */,
 			);
@@ -152,6 +167,7 @@
 		DAE3FC701A6C295100F7E904 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DADB21311A7677070051A48E /* InfoPlist.strings */,
 				DAE3FC711A6C295100F7E904 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -251,6 +267,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				ar,
 			);
 			mainGroup = DAE3FC4E1A6C295100F7E904;
 			productRefGroup = DAE3FC581A6C295100F7E904 /* Products */;
@@ -269,10 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE3FC621A6C295100F7E904 /* Main.storyboard in Resources */,
+				DADB21231A7676D10051A48E /* InfoPlist.strings in Resources */,
 				DAD1DD311A6EE9860096EC5E /* sitcomsInfo.plist in Resources */,
 				DAE3FC8F1A6C344600F7E904 /* Localizable.strings in Resources */,
 				DAE3FC671A6C295100F7E904 /* LaunchScreen.xib in Resources */,
-				DAD1DD2F1A6EE7AD0096EC5E /* bg.png in Resources */,
+				DADB21331A7677700051A48E /* bg.png in Resources */,
 				DAE3FC641A6C295100F7E904 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADB212F1A7677070051A48E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,10 +336,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DADB21251A7676D10051A48E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB21241A7676D10051A48E /* fr */,
+				DADB212B1A7677060051A48E /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DADB21311A7677070051A48E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB21301A7677070051A48E /* ar */,
+				DADB21321A76774E0051A48E /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DADB21351A7677700051A48E /* bg.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB21361A7677770051A48E /* fr */,
+				DADB21371A76777A0051A48E /* ar */,
+				DADB21381A767DF40051A48E /* en */,
+			);
+			name = bg.png;
+			sourceTree = "<group>";
+		};
 		DAE3FC601A6C295100F7E904 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DAE3FC611A6C295100F7E904 /* Base */,
+				DADB211F1A7676D00051A48E /* fr */,
+				DADB21291A7677060051A48E /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -328,6 +378,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DAE3FC661A6C295100F7E904 /* Base */,
+				DADB21391A7682B30051A48E /* fr */,
+				DADB213A1A7682DC0051A48E /* ar */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -336,6 +388,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DAE3FC921A6C344900F7E904 /* Base */,
+				DADB21201A7676D00051A48E /* fr */,
+				DADB212A1A7677060051A48E /* ar */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -424,9 +478,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hossam Ghareeb (5K6NTRJ3D7)";
 				INFOPLIST_FILE = "Top Sitcoms/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac15cd29-8018-4ca3-826f-ea4beeea4231";
 			};
 			name = Debug;
 		};
@@ -434,9 +490,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hossam Ghareeb (5K6NTRJ3D7)";
 				INFOPLIST_FILE = "Top Sitcoms/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac15cd29-8018-4ca3-826f-ea4beeea4231";
 			};
 			name = Release;
 		};
