@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Top Sitcoms/Base.lproj/Main.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1" build-num="6A1052c"/>
+    </header>
+    <body>
+      <trans-unit id="1js-hV-Yhk.text">
+        <source>Welcome To Top Sitcoms</source>
+        <note>Class = "IBUILabel"; text = "Welcome To Top Sitcoms"; ObjectID = "1js-hV-Yhk";</note>
+      <target>Haut Comédies</target></trans-unit>
+      <trans-unit id="ZbK-J4-SVe.text">
+        <source>Title</source>
+        <note>Class = "IBUILabel"; text = "Title"; ObjectID = "ZbK-J4-SVe";</note>
+      <target>Titre</target></trans-unit>
+      <trans-unit id="oVh-Jg-dHd.text">
+        <source>Detail</source>
+        <note>Class = "IBUILabel"; text = "Detail"; ObjectID = "oVh-Jg-dHd";</note>
+      <target>Détails</target></trans-unit>
+    </body>
+  </file>
+  <file original="Top Sitcoms/Info.plist" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1" build-num="6A1052c"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      <target>Haut Comédies</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      <target>1.0</target></trans-unit>
+    </body>
+  </file>
+  <file original="Top Sitcoms/Localizable.strings" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1" build-num="6A1052c"/>
+    </header>
+    <body>
+      <trans-unit id="homeTitle">
+        <source>homeTitle</source>
+        <note>Most Popular Sitcom</note>
+      <target>Plus Populaire Sitcom Séries TV</target></trans-unit>
+    </body>
+  </file>
+  <file original="Top SitcomsTests/Info.plist" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1" build-num="6A1052c"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      <target>Haut Comédies</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      <target>1.0</target></trans-unit>
+    </body>
+  </file>
+</xliff>

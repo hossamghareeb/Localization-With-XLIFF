@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAD0335A1A7A83710059B73F /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD033591A7A83710059B73F /* LaunchScreenViewController.swift */; };
 		DAD08FC11A79719100E21F1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD08FC31A79719100E21F1B /* InfoPlist.strings */; };
 		DAD08FC61A79719200E21F1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD08FC81A79719200E21F1B /* InfoPlist.strings */; };
 		DAD1DD311A6EE9860096EC5E /* sitcomsInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAD1DD301A6EE9860096EC5E /* sitcomsInfo.plist */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAD033591A7A83710059B73F /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		DAD08FAC1A796F4D00E21F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/bg.png; sourceTree = "<group>"; };
 		DAD08FD21A7974A300E21F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DAD08FD81A79750300E21F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAD033581A7A83630059B73F /* LaunchScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAD033591A7A83710059B73F /* LaunchScreenViewController.swift */,
+			);
+			path = LaunchScreenViewController;
+			sourceTree = "<group>";
+		};
 		DAD1DD2D1A6EE7990096EC5E /* GFX */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +173,7 @@
 		DAE3FC7C1A6C2BCE00F7E904 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DAD033581A7A83630059B73F /* LaunchScreenViewController */,
 				DAE3FC7D1A6C2BCE00F7E904 /* TopSitcomsViewController */,
 			);
 			path = Controllers;
@@ -297,6 +308,7 @@
 			files = (
 				DAE3FC5D1A6C295100F7E904 /* AppDelegate.swift in Sources */,
 				DAD1DD341A6EEC140096EC5E /* SitcomManager.swift in Sources */,
+				DAD0335A1A7A83710059B73F /* LaunchScreenViewController.swift in Sources */,
 				DAE3FC811A6C2BE700F7E904 /* TopSitcomsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Hossam Ghareeb (5K6NTRJ3D7)";
 				INFOPLIST_FILE = "Top Sitcoms/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -456,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Hossam Ghareeb (5K6NTRJ3D7)";
 				INFOPLIST_FILE = "Top Sitcoms/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

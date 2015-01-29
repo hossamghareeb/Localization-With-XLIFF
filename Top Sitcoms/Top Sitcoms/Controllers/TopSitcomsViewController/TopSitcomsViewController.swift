@@ -17,6 +17,9 @@ class TopSitcomsViewController: UIViewController, UITableViewDataSource, UITable
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        
         // Do any additional setup after loading the view, typically from a nib.
         self.title = NSLocalizedString("homeTitle",comment: "Most Popular Sitcom")
         

@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Launch Screen View Controller-->
         <scene sceneID="mxa-yB-f2M">
             <objects>
-                <viewController id="ggB-6g-blp" sceneMemberID="viewController">
+                <viewController id="ggB-6g-blp" customClass="LaunchScreenViewController" customModule="Top_Sitcoms" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="b5E-59-VkH"/>
                         <viewControllerLayoutGuide type="bottom" id="b76-Kj-gLX"/>
@@ -19,7 +19,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="PkB-E0-HnD">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcom to Top Sitcoms" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1js-hV-Yhk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Top Sitcoms" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1js-hV-Yhk">
                                 <rect key="frame" x="0.0" y="234" width="600" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="68" id="rA9-Np-pmc"/>
@@ -43,7 +43,7 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="mbF-6k-d8q"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="push" id="VKV-Ej-pcn"/>
+                        <segue destination="vXZ-lx-hvc" kind="push" identifier="start" id="VKV-Ej-pcn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dXW-2y-eoh" userLabel="First Responder" sceneMemberID="firstResponder"/>
