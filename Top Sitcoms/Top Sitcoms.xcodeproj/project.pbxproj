@@ -15,7 +15,6 @@
 		DAE3FC5D1A6C295100F7E904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */; };
 		DAE3FC621A6C295100F7E904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC601A6C295100F7E904 /* Main.storyboard */; };
 		DAE3FC641A6C295100F7E904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC631A6C295100F7E904 /* Images.xcassets */; };
-		DAE3FC671A6C295100F7E904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC651A6C295100F7E904 /* LaunchScreen.xib */; };
 		DAE3FC731A6C295100F7E904 /* Top_SitcomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC721A6C295100F7E904 /* Top_SitcomsTests.swift */; };
 		DAE3FC811A6C2BE700F7E904 /* TopSitcomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3FC801A6C2BE700F7E904 /* TopSitcomsViewController.swift */; };
 		DAE3FC8F1A6C344600F7E904 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE3FC911A6C344600F7E904 /* Localizable.strings */; };
@@ -42,7 +41,6 @@
 		DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE3FC611A6C295100F7E904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE3FC631A6C295100F7E904 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DAE3FC661A6C295100F7E904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DAE3FC6C1A6C295100F7E904 /* Top SitcomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top SitcomsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3FC711A6C295100F7E904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE3FC721A6C295100F7E904 /* Top_SitcomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_SitcomsTests.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				DAE3FC5C1A6C295100F7E904 /* AppDelegate.swift */,
 				DAE3FC601A6C295100F7E904 /* Main.storyboard */,
 				DAE3FC631A6C295100F7E904 /* Images.xcassets */,
-				DAE3FC651A6C295100F7E904 /* LaunchScreen.xib */,
 				DAE3FC5A1A6C295100F7E904 /* Supporting Files */,
 				DAD1DD301A6EE9860096EC5E /* sitcomsInfo.plist */,
 			);
@@ -278,7 +275,6 @@
 				DAD08FC11A79719100E21F1B /* InfoPlist.strings in Resources */,
 				DAD1DD311A6EE9860096EC5E /* sitcomsInfo.plist in Resources */,
 				DAE3FC8F1A6C344600F7E904 /* Localizable.strings in Resources */,
-				DAE3FC671A6C295100F7E904 /* LaunchScreen.xib in Resources */,
 				DADB21331A7677700051A48E /* bg.png in Resources */,
 				DAE3FC641A6C295100F7E904 /* Images.xcassets in Resources */,
 			);
@@ -354,14 +350,6 @@
 				DAE3FC611A6C295100F7E904 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DAE3FC651A6C295100F7E904 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAE3FC661A6C295100F7E904 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 		DAE3FC911A6C344600F7E904 /* Localizable.strings */ = {

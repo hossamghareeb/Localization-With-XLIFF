@@ -19,12 +19,24 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="PkB-E0-HnD">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcom to Top Sitcoms" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1js-hV-Yhk">
+                                <rect key="frame" x="0.0" y="234" width="600" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="rA9-Np-pmc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="PkB-E0-HnD" firstAttribute="width" secondItem="ctS-5h-afW" secondAttribute="width" id="9Xr-hT-GLa"/>
                             <constraint firstItem="PkB-E0-HnD" firstAttribute="top" secondItem="ctS-5h-afW" secondAttribute="top" id="Fnl-6I-83v"/>
                             <constraint firstItem="PkB-E0-HnD" firstAttribute="leading" secondItem="ctS-5h-afW" secondAttribute="leading" id="R0f-j6-Cog"/>
+                            <constraint firstItem="1js-hV-Yhk" firstAttribute="width" secondItem="ctS-5h-afW" secondAttribute="width" id="aMB-Hz-qGl"/>
+                            <constraint firstItem="1js-hV-Yhk" firstAttribute="centerY" secondItem="ctS-5h-afW" secondAttribute="centerY" id="mQz-ER-qFG"/>
+                            <constraint firstItem="1js-hV-Yhk" firstAttribute="centerX" secondItem="ctS-5h-afW" secondAttribute="centerX" id="qA0-8w-Ome"/>
                             <constraint firstItem="PkB-E0-HnD" firstAttribute="height" secondItem="ctS-5h-afW" secondAttribute="height" id="t9C-YL-3Gg"/>
                         </constraints>
                     </view>
